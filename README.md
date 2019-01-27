@@ -17,7 +17,7 @@
 这里都是刚开始接触 Java 和刚开始写博客的时候写的一些文章了，现在看起来还挺有意思
 
 * [Java学习笔记（0）——了解Java - 2017/9/17](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Java基础/Java学习笔记（0）——了解Java.md)
-* [Java学习笔记（1）——搭建好所需要的环境 - 2017/9/18](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Java基础/Java学习笔记（1）—— 搭建好所需要的环境.md)
+* [Java学习笔记（1）——搭建好所需要的环境 - 2017/9/18](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Java基础/Java学习笔记（1）——搭建好所需要的环境.md)
 
 ### 框架学习
 
