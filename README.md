@@ -18,13 +18,38 @@
 
 * [Java学习笔记（0）——了解Java - 2017/9/17](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Java基础/Java学习笔记（0）——了解Java.md)
 * [Java学习笔记（1）——搭建好所需要的环境 - 2017/9/18](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Java基础/Java学习笔记（1）——搭建好所需要的环境.md)
+* [Java学习笔记（2）——数据类型 - 2017/9/19](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Java基础/Java学习笔记（2）——数据类型.md)
+* [Java学习笔记（3）——String类详解 - 2017/10/25](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Java基础/Java学习笔记（3）——String类详解.md)
+* [Java学习笔记（4）——并发基础 - 2017/10/31](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Java基础/Java学习笔记（4）——并发基础.md)
+* [线程和进程基础——翻译文 - 2017/11/6](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Java基础/线程和进程基础——翻译文.md)
+* [Java 7的新特性 - 2017/11/20](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Java基础/Java7的新特性.md)
+* [Java 8——行为参数化 - 2017/12/26](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Java基础/Java8——行为参数化.md)
+* [Java 8——Lambda表达式 - 2017/12/27](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Java基础/Java8——Lambda表达式.md)
+* [Java 8——函数式数据处理（流） - 2018/1/1](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Java基础/Java8——函数式数据处理（流）.md)
+
+
+### Web基础
+
+大三下学期刚开了Java Web的课程，开始进入学习模式：
+
+* [Java Web——Web概述 - 2018/3/14](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Web基础/JavaWeb——Web概述.md)
+* [初学Java Web(2)——搭建Java Web开发环境 - 2018/3/14](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Web基础/初学JavaWeb（2）——搭建JavaWeb开发环境.md)
+* [初学Java Web(3)——第一个Servlet - 2018/3/21](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Web基础/初学JavaWeb(3)——第一个Servlet.md)
+* [初学Java Web(4)——Servlet学习总结 - 2018/4/6](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Web基础/初学JavaWeb(4)——Servlet学习总结.md)
+* [初学Java Web(5)——cookie-session学习 - 2018/4/7](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Web基础/初学JavaWeb(5)——cookie-session学习.md)
+* [初学Java Web(6)——JSP学习总结 - 2018/4/7](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Web基础/初学JavaWeb(6)——JSP学习总结.md)
+* [初学Java Web(7)——文件的上传和下载 - 2018/4/8](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Web基础/初学JavaWeb(7)——文件的上传和下载.md)
+* [初学Java Web(8)——过滤器和监听器 - 2018/4/8](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Web基础/初学JavaWeb(8)——过滤器和监听器.md)
+* [初学Java Web(9)——学生管理系统（简易版）总结 - 2018/4/9](https://github.com/wmyskxz/Java-Learning-Path/blob/master/Web基础/初学JavaWeb(9)——学生管理系统（简易版）总结.md)
+
 
 ### 框架学习
 
 
-#### Spring框架
+#### 其他框架
 
 * [Elasticsearch【快速入门】 - 2019/1/8](https://www.jianshu.com/p/1df1529aaca7)
+
 
 
 
