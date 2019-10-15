@@ -140,6 +140,152 @@ Diff 大致可以分为三种类型：
   - 如果对比前后，组件类型不同，则需要移除旧组件，创建新组件，并追加到页面上；
 - **Element Diff：** 在进行组件对比的时候，如果两个组件类型相同，则需要进行元素级别的对比，这叫做 Element Diff； 
 
+# 三、Hello World
+
+---
+
+- 引用自：http://www.ruanyifeng.com/blog/2015/03/react.html - 阮一峰 - React 入门实例教程
+
+使用 React 的网页源码，结构大致如下（可以直接运行）：
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Hello React!</title>
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+</head>
+<body>
+
+<div id="example"></div>
+<script type="text/babel">
+    ReactDOM.render(
+        <h1>Hello, world!</h1>,
+        document.getElementById('example')
+    );
+</script>
+
+</body>
+</html>
+```
+
+上面代码有两个地方需要注意。首先，最后一个 `<script>` 标签的 `type` 属性为 `text/babel` 。这是因为 React 独有的 JSX 语法，跟 JavaScript 不兼容。凡是使用 JSX 的地方，都要加上 `type="text/babel"` 。
+
+其次，上面代码一共用了三个库： `react.js` 、`react-dom.js` 和 `Browser.js` ，它们必须首先加载。其中，`react.js`是 React 的核心库，`react-dom.js` 是提供与 DOM 相关的功能，`Browser.js` 的作用是将 JSX 语法转为 JavaScript 语法，这一步很消耗时间，实际上线的时候，应该将它放到服务器完成。
+
+```shell
+$ babel src --out-dir build
+```
+
+上面命令可以将 `src` 子目录的 `js` 文件进行语法转换，转码后的文件全部放在 `build` 子目录。
+
+## ReactDOM.render()
+
+ReactDOM.render 是 React 的最基本方法，用于将模板转为 HTML 语言，并插入指定的 DOM 节点。
+
+```html
+ReactDOM.render(
+  <h1>Hello, world!</h1>,
+  document.getElementById('example')
+);
+```
+
+上面代码将一个 `h1` 标题，插入 `example` 节点，运行结果如下：
+
+![](../../../images/React入门学习/image-20191015221801212.png)
+
+## JSX 语法
+
+- 引用自：https://www.runoob.com/react/react-jsx.html - RUNOOB.COM - React JSX
+
+上一节的代码， HTML 语言直接写在 JavaScript 语言之中，不加任何引号，这就是 [JSX 的语法](http://facebook.github.io/react/docs/displaying-data.html#jsx-syntax)，它允许 HTML 与 JavaScript 的混写。我们先来看以下一段代码：
+
+```html
+const element = <h1>Hello, world!</h1>;
+```
+
+与浏览器的 DOM 元素不同，React 当中的元素事实上是普通的对象，React DOM 可以确保 浏览器 DOM 的数据内容与 React 元素保持一致。要将 React 元素渲染到根 DOM 节点中，我们通过把它们都传递给 ReactDOM.render() 的方法来将其渲染到页面上：
+
+```html
+var myDivElement = <div className="foo" />;
+ReactDOM.render(myDivElement, document.getElementById('example'));
+```
+
+JSX 看起来类似 HTML ，你也可以在上面代码中嵌套多个 HTML 标签，但是需要使用一个 `div` 元素包裹它。
+
+### JavaScript 表达式
+
+我们可以在 JSX 中使用 JavaScript 表达式。表达式写在花括号 **{}** 中。实例如下：
+
+```html
+ReactDOM.render(
+    <div>
+      <h1>{1+1}</h1>
+    </div>
+    ,
+    document.getElementById('example')
+);
+```
+
+在 JSX 中不能使用 **if else** 语句，但可以使用 **conditional (三元运算)** 表达式来替代。以下实例中如果变量 **i** 等于 **1** 浏览器将输出 **true**, 如果修改 i 的值，则会输出 **false**.
+
+```html
+ReactDOM.render(
+    <div>
+      <h1>{i == 1 ? 'True!' : 'False'}</h1>
+    </div>
+    ,
+    document.getElementById('example')
+);
+```
+
+### 样式
+
+React 推荐使用内联样式。我们可以使用 **camelCase** 语法来设置内联样式. React 会在指定元素数字后自动添加 **px** 。以下实例演示了为 **h1** 元素添加 **myStyle** 内联样式：
+
+```html
+var myStyle = {
+    fontSize: 100,
+    color: '#FF0000'
+};
+ReactDOM.render(
+    <h1 style = {myStyle}>菜鸟教程</h1>,
+    document.getElementById('example')
+);
+```
+
+### 注释
+
+注释需要写在花括号中，实例如下：
+
+```html
+ReactDOM.render(
+    <div>
+    <h1>菜鸟教程</h1>
+    {/*注释...*/}
+     </div>,
+    document.getElementById('example')
+);
+```
+
+### 数组
+
+JSX 允许在模板中插入数组，数组会自动展开所有成员：
+
+```html
+var arr = [
+  <h1>菜鸟教程</h1>,
+  <h2>学的不仅是技术，更是梦想！</h2>,
+];
+ReactDOM.render(
+  <div>{arr}</div>,
+  document.getElementById('example')
+);
+```
+
 # 参考资料
 
 ---
