@@ -3,9 +3,6 @@
 <p align="center">
   <img src="https://github.com/wmyskxz/MoreThanJava/blob/master/images/README/logo.png">
 </p>
-
-
-
 <p align="center">
   <a href="#微信"><img src="https://img.shields.io/badge/WeChat-微信-green.svg" alt="微信"></a>
   <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E6%88%91%E6%B2%A1%E6%9C%89%E4%B8%89%E9%A2%97%E5%BF%83%E8%84%8F-green.svg" alt="公众号"></a>
