@@ -19,19 +19,45 @@
 
 # 说明
 
-当跨入学校，进入职场，你会发现除了 CODING，很有很多的【认知】需要提升，所以本项目致力于【MORE THAN JAVA】的学习，不仅仅是 CODING，还从很多不同的方面帮助你学习 Java
+当走出学校，跨入职场，你会发现写代码这件事除了 CODING，还有很多的【认知】需要提升，所以本项目致力于【MORE THAN JAVA】的学习，不仅仅是 CODING，还从很多不同的方面帮助你学习。
+
+[公众号](#公众号)和[本项目](https://github.com/wmyskxz/MoreThanJava)保持同步更新，喜欢的小伙伴可以点一波关注，另外觉得卡的朋友也可以访问国内的 [Gitee](https://gitee.com/wmyskxz/MoreThanJava)，**您的[支持](#赞赏)是我前进最大的动力!**
 
 # 目录
 
+## Part 1.Java 基础
 
+<table>
+   <tr align="center">
+      <th colspan="6" style="background-color: #96a6ae">开始之前👨‍💻‍</th>
+   </tr>
+   <tr>
+      <td>第一篇文章的标题</td>
+      <td>第一篇文章的标题</td>
+      <td>第一篇文章的标题</td>
+      <td>第一篇文章的标题</td>
+      <td>第一篇文章的标题</td>
+      <td>第一篇文章的标题</td>
+   </tr>
+</table>
 
-
-
-
+<table>
+   <tr align="center">
+      <th colspan="6" style="background-color: #96a6ae">Java 基础学习☕️</th>
+   </tr>
+   <tr>
+      <td>第一篇文章的标题</td>
+      <td>第一篇文章的标题</td>
+      <td>第一篇文章的标题</td>
+      <td>第一篇文章的标题</td>
+      <td>第一篇文章的标题</td>
+      <td>第一篇文章的标题</td>
+   </tr>
+</table>
 
 # 微信
 
-如果有需要联系我的朋友，可以扫描下方二维码添加我的私人微信，我也会拉您进入技术交流群。
+如果有需要联系我的朋友，可以扫描下方二维码添加我的私人微信，我也会拉您进入技术交流群，当然也有 QQ 交流群，您可以备注一下 Github 随时加入：3382693。
 
 **请在添加的时候最好能备注一下您的姓名/了解我的渠道/来意（wmyskxz/Github/商务合作）**
 
@@ -58,6 +84,18 @@
 # 投稿
 
 投稿请添加[上方个人微信二维码](#微信)联系，**请备注来意，感谢您的支持！**
+
+
+
+# 赞赏
+
+您的支持是我前进最大的动力
+
+<p align="center">
+  <a href="https://github.com/wmyskxz/MoreThanJava/">
+      <img src="/images/README/image-20200221211142279.png" height="350" width="350">
+  </a>
+</p>
 
 
 
