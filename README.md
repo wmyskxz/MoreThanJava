@@ -1,7 +1,7 @@
 测试整理中....
 
 <p align="center">
-  <img src="https://www.github.com/wmyskxz/MoreThanJava/images/README/logo.png">
+  <img src="https://github.com/wmyskxz/MoreThanJava/blob/master/images/README/logo.png">
 </p>
 
 
