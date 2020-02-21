@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/wmyskxz/MoreThanJava/">
-    <img src="/images/README/logo.png" width="150" height="150">
+    <img src="/images/README/logo.png" width="300" height="150">
   </a>
 </p>
 <p align="center">
