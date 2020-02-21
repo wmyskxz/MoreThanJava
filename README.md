@@ -1,4 +1,4 @@
-测试整理中....
+整理中....
 
 <p align="center">
   <a href="https://github.com/wmyskxz/MoreThanJava/">
@@ -19,11 +19,33 @@
 
 # 微信
 
+如果有需要联系我的朋友，可以扫描下方二维码添加我的私人微信，我也会拉您进入技术交流群。
+
+**请在添加的时候最好能备注一下您的姓名/了解我的渠道/来意（wmyskxz/Github/商务合作）**
+
+<p align="center">
+  <a href="https://github.com/wmyskxz/MoreThanJava/">
+  	<img src="/images/README/image-20200221180506860.png" height="350" width="350">
+  </a>
+</p>
+
 
 
 # 公众号
 
+内容公众号同步更新，有时候不适合发 Github 的东西我也会发在公众号里面，所以请各位大大也扫码关注，支持一波吧
+
+<p align="center">
+  <a href="https://github.com/wmyskxz/MoreThanJava/">
+      <img src="/images/README/image-20200221181715900.png" height="350" width="350">
+  </a>
+</p>
+
 
 
 # 投稿
+
+投稿请添加[上方个人微信二维码](#微信)联系，**请备注来意，感谢您的支持！**
+
+
 
