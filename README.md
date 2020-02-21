@@ -1,7 +1,9 @@
 测试整理中....
 
 <p align="center">
-  <img src="https://github.com/wmyskxz/MoreThanJava/blob/master/images/README/logo.png">
+  <a href="https://github.com/wmyskxz/MoreThanJava/">
+    <img src="/images/README/logo.png" style="width: 100px;">
+  </a>
 </p>
 <p align="center">
   <a href="#微信"><img src="https://img.shields.io/badge/WeChat-微信-green.svg" alt="微信"></a>
