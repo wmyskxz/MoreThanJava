@@ -19,11 +19,22 @@
 
 # 说明
 
-当走出学校，跨入职场，你会发现写代码这件事除了 CODING，还有很多的【认知】需要提升，所以本项目致力于【MORE THAN JAVA】的学习，不仅仅是 CODING，还从很多不同的方面帮助你学习。
+当走出学校，跨入职场，你会发现写代码这件事除了 CODING，还有很多的【认知】需要提升，所以本项目致力于【MORE THAN JAVA】的学习，不仅仅是 CODING，还有很多不止于 CODING 的【知识】。
 
-[公众号](#公众号)和[本项目](https://github.com/wmyskxz/MoreThanJava)保持同步更新，喜欢的小伙伴可以点一波关注，另外觉得卡的朋友也可以访问国内的 [Gitee](https://gitee.com/wmyskxz/MoreThanJava)，**您的[支持](#赞赏)是我前进最大的动力!**
+[公众号](#公众号)和[本项目](https://github.com/wmyskxz/MoreThanJava)保持同步更新，喜欢的小伙伴可以点一波关注，有任何意见 or 建议请[联系我](#微信)，另外觉得卡的朋友也可以访问国内的 [Gitee](https://gitee.com/wmyskxz/MoreThanJava)，**您的[支持](#赞赏)是我前进最大的动力!**
 
 # 目录
+
+## Part 0.开始之前必读
+
+<table>
+   <tr align="center">
+      <th colspan="6" style="background-color: #96a6ae">开始之前👨‍💻‍</th>
+   </tr>
+   <tr>
+      <td><a href="https://www.cnblogs.com/ityouknow/p/6871580.html">思维的局限 | 我们为什么需要保持学习</a></td>
+   </tr>
+</table>
 
 ## Part 1.Java 基础
 
@@ -54,6 +65,72 @@
       <td>第一篇文章的标题</td>
    </tr>
 </table>
+
+## Part 2.Java Web
+
+## Part 3.框架相关
+
+## Part 4.面试宝典
+
+### Java 面试知识点全解析
+
+<table>
+   <tr align="center">
+      <th colspan="6" style="background-color: #96a6ae">Java面试知识点全解析📒</th>
+   </tr>
+   <tr>
+      <td><a href="https://www.wmyskxz.com/2018/05/09/java-mian-shi-zhi-shi-dian-jie-xi-yi-ji-chu-zhi-shi-pian/#toc-heading-20">Java面试知识点解析(一)——基础知识篇</a></td>
+      <td><a href="https://www.wmyskxz.com/2018/05/10/java-mian-shi-zhi-shi-dian-jie-xi-er-gao-bing-fa-bian-cheng-pian/">Java面试知识点解析(二)——高并发编程篇</a></td>
+      <td><a href="https://www.wmyskxz.com/2018/05/16/java-mian-shi-zhi-shi-dian-jie-xi-san-jvm-pian/">Java面试知识点解析(三)——JVM篇</a></td>
+      <td><a href="https://www.wmyskxz.com/2018/05/17/java-mian-shi-zhi-shi-dian-jie-xi-si-ban-ben-te-xing-pian/">Java面试知识点解析(四)——版本特性篇</a></td>
+      <td><a href="https://www.wmyskxz.com/2018/05/18/java-mian-shi-zhi-shi-dian-jie-xi-wu-wang-luo-xie-yi-pian/">Java面试知识点解析(五)——网络协议篇</a></td>
+      <td><a href="https://www.wmyskxz.com/2018/05/21/java-mian-shi-zhi-shi-dian-jie-xi-liu-shu-ju-ku-pian/">Java面试知识点解析(六)——数据库篇</a></td>
+   </tr>
+  <tr>
+    <td><a href="https://www.wmyskxz.com/2018/05/22/java-mian-shi-zhi-shi-dian-jie-xi-qi-web-pian/">Java面试知识点解析(七)——Web篇</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<table>
+   <tr align="center">
+      <th colspan="6" style="background-color: #96a6ae">数据结构与算法📒</th>
+   </tr>
+   <tr>
+     <td><a href="https://leetcode-cn.com/">LeetCode | 刷题必备</a></td>
+      <td><a href="https://www.wmyskxz.com/2018/07/02/shu-ju-jie-gou-yu-suan-fa-1-shu-zu-yu-lian-biao/">数据结构与算法(1)——数组与链表</a></td>
+      <td><a href="https://www.wmyskxz.com/2018/07/06/shu-ju-jie-gou-yu-suan-fa-2-zhan-he-dui-lie/">数据结构与算法(2)——栈和队列</a></td>
+      <td><a href="https://www.wmyskxz.com/2018/07/11/shu-ju-jie-gou-yu-suan-fa-3-shu-er-cha-er-cha-sou-suo-shu/">数据结构与算法(3)——树（二叉、二叉搜索树）</a></td>
+      <td><a href="https://www.wmyskxz.com/2018/07/12/shu-ju-jie-gou-yu-suan-fa-4-you-xian-dui-lie-he-dui/">数据结构与算法(4)——优先队列和堆</a></td>
+      <td></td>
+   </tr>
+</table>
+
+<table>
+   <tr align="center">
+      <th colspan="6" style="background-color: #96a6ae">其他优秀面试宝典收集📒</th>
+   </tr>
+   <tr>
+      <td><a href="https://github.com/ZhongFuCheng3y/3y">Java3y | Java后端必备知识点</a></td>
+      <td><a href="https://github.com/AobingJava/JavaFamily">JavaFamily | 互联网一线大场面试 + 学习指南</a></td>
+      <td><a href="https://github.com/Snailclimb/JavaGuide">JavaGuide | Java学习 + 面试指南</a></td>
+      <td><a href="https://github.com/yifeikong/reverse-interview-zh">技术面试最后反问面试官的话</a></td>
+      <td><a href="https://www.nowcoder.com/discuss?type=2&order=0">牛客网 | 一线笔经面经</a></td>
+      <td><a href="https://www.wmyskxz.com/2018/07/28/java-ji-he-bi-hui-14-wen-jing-xuan-mian-shi-ti-zheng-li/">Java集合必会14问(精选面试题整理)</a></td>
+   </tr>
+     <tr>
+      <td><a href="https://www.wmyskxz.com/2018/08/15/java-i-o-bu-mi-mang-yi-wen-wei-nin-dao-hang/">Java I/O不迷茫，一文为您导航！</a></td>
+      <td><a href="https://www.wmyskxz.com/2018/08/26/mian-shi-bi-bei-shou-si-dai-ma-ni-pa-bu-pa/">【面试必备】手撕代码，你怕不怕？</a></td>
+   </tr>
+</table>
+
+## Part 5.程序人生
+
+
 
 # 微信
 
