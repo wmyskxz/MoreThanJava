@@ -103,8 +103,16 @@
       <td><a href="https://www.wmyskxz.com/2018/05/08/spring-boot-kuai-su-ru-men/">Spring Boot【快速入门】</a></td>
    </tr>
 </table>
-
 ## Part 3.框架相关
+
+<table>
+   <tr align="center">
+      <th colspan="6" style="background-color: #96a6ae">Redis 系列☑️</th>
+   </tr>
+   <tr>
+      <td><a href="https://www.wmyskxz.com/2020/02/28/redis-1-5-chong-ji-ben-shu-ju-jie-gou/">Redis(1)——5种基本数据结构</a></td>
+   </tr>
+</table>
 
 ## Part 4.面试宝典
 
