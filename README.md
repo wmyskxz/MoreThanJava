@@ -111,6 +111,7 @@
    </tr>
    <tr>
       <td><a href="https://www.wmyskxz.com/2020/02/28/redis-1-5-chong-ji-ben-shu-ju-jie-gou/">Redis(1)——5种基本数据结构</a></td>
+     <td><a href="https://www.wmyskxz.com/2020/02/29/redis-2-tiao-yue-biao/">Redis(2)——跳跃表</a></td>
    </tr>
 </table>
 
