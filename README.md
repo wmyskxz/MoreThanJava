@@ -103,7 +103,7 @@
       <td><a href="https://www.wmyskxz.com/2018/05/08/spring-boot-kuai-su-ru-men/">Spring Boot【快速入门】</a></td>
    </tr>
 </table>
-## Part 3.框架相关
+## Part 3. 框架相关
 
 <table>
    <tr align="center">
@@ -112,6 +112,8 @@
    <tr>
       <td><a href="https://www.wmyskxz.com/2020/02/28/redis-1-5-chong-ji-ben-shu-ju-jie-gou/">Redis(1)——5种基本数据结构</a></td>
      <td><a href="https://www.wmyskxz.com/2020/02/29/redis-2-tiao-yue-biao/">Redis(2)——跳跃表</a></td>
+     <td><a href="https://www.wmyskxz.com/2020/03/01/redis-3/">Redis(3)——分布式锁深入探索</a></td>
+     <td><a href="https://www.wmyskxz.com/2020/03/02/reids-4-shen-qi-de-hyperloglog-jie-jue-tong-ji-wen-ti/">Reids(4)——神奇的HyperLoglog解决统计问题</a></td>
    </tr>
 </table>
 
