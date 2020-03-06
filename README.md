@@ -28,6 +28,16 @@
 	- [🔥推荐 Java 基础学习教程☕️](#part1-recommend)
 	- [Java 高并发学习☕️](#part1-concurrency)
 - [Part 2.Java Web](#part2)
+	- [Spring 基础学习](#part2-spring)
+	- [SpringBoot 学习](#part2-springboot)
+- [Part 3. 框架相关](#part3)
+	- [Redis 学习](#part3-redis)
+- [Part 4.面试宝典](#part4)
+	- [Java 面试知识点全解析📒](#part4-java)
+	- [数据结构与算法📒](#part4-algorithm)
+	- [其他优秀面试宝典收集📒](#part4-other)
+	- [正确认识面试👨‍💼](#part4-about-interview)
+- [Part 5.程序人生](#part5)
 
 <h2 id="part0">Part 0.开始之前必读</h2>
 
@@ -64,13 +74,17 @@
    <tr>
       <td><a href="https://www.wmyskxz.com/2019/11/26/gao-bing-fa-bian-cheng-xue-xi-1-bing-fa-ji-chu/">高并发编程学习(1)——并发基础</a></td>
       <td><a href="https://www.wmyskxz.com/2019/11/27/gao-bing-fa-bian-cheng-xue-xi-2-xian-cheng-tong-xin-xiang-jie/">高并发编程学习(2)——线程通信详解</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
    </tr>
 </table>
 
 
 <h2 id="part2">Part 2.Java Web</h2>
 
-<table>
+<table id="part2-spring">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">Spring 框架基础🍃</th>
    </tr>
@@ -88,19 +102,23 @@
 </table>
 
 
-<table>
+<table id="part2-springboot">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">SpringBoot 学习🌿</th>
    </tr>
    <tr>
-      <td><a href="https://www.wmyskxz.com/2018/05/08/spring-boot-kuai-su-ru-men/">Spring Boot【快速入门】</a></td>
+      <td><a href="https://www.wmyskxz.com/2018/05/08/spring-boot-kuai-su-ru-men/">🔥Spring Boot【快速入门】</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
    </tr>
 </table>
 
+<h2 id="part3">Part 3. 框架相关</h2>
 
-## Part 3. 框架相关
-
-<table>
+<table id="part3-redis">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">Redis 系列☑️</th>
    </tr>
@@ -112,13 +130,9 @@
    </tr>
 </table>
 
+<h2 id="part4">Part 4.面试宝典</h2>
 
-
-## Part 4.面试宝典
-
-### Java 面试知识点
-
-<table>
+<table id="part4-java">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">Java 面试知识点全解析📒</th>
    </tr>
@@ -141,7 +155,7 @@
 </table>
 
 
-<table>
+<table id="part4-algorithm">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">数据结构与算法📒</th>
    </tr>
@@ -156,7 +170,7 @@
 </table>
 
 
-<table>
+<table id="part4-other">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">其他优秀面试宝典收集📒</th>
    </tr>
@@ -171,13 +185,14 @@
      <tr>
       <td><a href="https://www.wmyskxz.com/2018/08/15/java-i-o-bu-mi-mang-yi-wen-wei-nin-dao-hang/">Java I/O不迷茫，一文为您导航！</a></td>
       <td><a href="https://www.wmyskxz.com/2018/08/26/mian-shi-bi-bei-shou-si-dai-ma-ni-pa-bu-pa/">【面试必备】手撕代码，你怕不怕？</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
    </tr>
 </table>
 
-
-### 认识面试以及面试的技巧
-
-<table>
+<table id="part4-about-interview">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">正确认识面试👨‍💼</th>
    </tr>
@@ -186,9 +201,7 @@
 </table>
 
 
-## Part 5.程序人生
-
-
+<h2 id="part 5">Part 5.程序人生</h2>
 
 # 微信
 
@@ -202,27 +215,19 @@
   </a>
 </p>
 
-
-
-
 # 公众号
 
 内容公众号同步更新，有时候不适合发 Github 的东西我也会发在公众号里面，所以请各位大大也扫码关注，支持一波吧
 
 <p align="center">
   <a href="https://github.com/wmyskxz/MoreThanJava/">
-      <img src="/images/README/image-20200221181715900.png" height="350" width="350">
+      <img src="/images/README/image-2020022118171590øø0.png" height="350" width="350">
   </a>
 </p>
-
-
-
 
 # 投稿
 
 投稿请添加[上方个人微信二维码](#微信)联系，**请备注来意，感谢您的支持！**
-
-
 
 # 赞赏
 
