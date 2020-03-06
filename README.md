@@ -1,4 +1,4 @@
-整理中....
+持续整理中....
 
 <p align="center">
   <a href="https://github.com/wmyskxz/MoreThanJava/">
@@ -15,8 +15,6 @@
   <a href="#投稿"><img src="https://img.shields.io/badge/Contribute-%E6%8A%95%E7%A8%BF-blue.svg" alt="投稿"></a>
 </p>
 
-
-
 # 说明
 
 当走出学校，跨入职场，你会发现写代码这件事除了 CODING，还有很多的【认知】需要提升，所以本项目致力于【MORE THAN JAVA】的学习，不仅仅是 CODING，还有很多不止于 CODING 的【知识】。
@@ -25,7 +23,13 @@
 
 # 目录
 
-## Part 0.开始之前必读
+- [Part 0.开始之前必读](#part0)
+- [Part 1.Java 基础](#part1)
+	- [🔥推荐 Java 基础学习教程☕️](#part1-recommend)
+	- [Java 高并发学习☕️](#part1-concurrency)
+- [Part 2.Java Web](#part2)
+
+<h2 id="part0">Part 0.开始之前必读</h2>
 
 <table>
    <tr align="center">
@@ -36,37 +40,24 @@
    </tr>
 </table>
 
-## Part 1.Java 基础
 
-<table>
+<h2 id="part1">Part 1.Java 基础</h2>
+
+<table id="part1-recommend">
    <tr align="center">
-      <th colspan="6" style="background-color: #96a6ae">开始之前👨‍💻‍</th>
+      <th colspan="6" style="background-color: #96a6ae">🔥推荐 Java 基础学习教程☕️</th>
    </tr>
    <tr>
-      <td>第一篇文章的标题</td>
-      <td>第一篇文章的标题</td>
-      <td>第一篇文章的标题</td>
-      <td>第一篇文章的标题</td>
-      <td>第一篇文章的标题</td>
-      <td>第一篇文章的标题</td>
+      <td><a href="https://study.163.com/course/introduction.htm?courseId=1003108028&_trace_c_p_k2_=5f8d7fd692f34e739aed2915fb939e94">小码哥教育 - 经典免费 Java 零基础入门视频系列教程 | 建议 2 倍速观看</a></td>
+      <td><a href="https://how2j.cn/">HOW2J - 项目驱动式 Java 全系列学习</a></td>
+      <td><a href="https://www.liaoxuefeng.com/wiki/1252599548343744">廖雪峰 - Java 系列基础教程</a></td>
+      <td><a href="https://book.douban.com/subject/30333948/">《码出高效 Java 开发手册》 - 孤尽著</a></td>
+      <td><a href="https://book.douban.com/subject/34898994/">《Java 核心技术 卷 Ⅰ》  | 刚入门不建议食用，当参考书用</a></td>
+      <td><a href="https://book.douban.com/subject/7059903/">《编写高质量代码》  | 加深对 Java 的认识，对刚入门很有帮助</a></td>
    </tr>
 </table>
 
-<table>
-   <tr align="center">
-      <th colspan="6" style="background-color: #96a6ae">Java 基础学习☕️</th>
-   </tr>
-   <tr>
-      <td>第一篇文章的标题</td>
-      <td>第一篇文章的标题</td>
-      <td>第一篇文章的标题</td>
-      <td>第一篇文章的标题</td>
-      <td>第一篇文章的标题</td>
-      <td>第一篇文章的标题</td>
-   </tr>
-</table>
-
-<table>
+<table id="part1-concurrency">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">Java 高并发学习☕️</th>
    </tr>
@@ -76,7 +67,8 @@
    </tr>
 </table>
 
-## Part 2.Java Web
+
+<h2 id="part2">Part 2.Java Web</h2>
 
 <table>
    <tr align="center">
@@ -95,6 +87,7 @@
   </tr>
 </table>
 
+
 <table>
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">SpringBoot 学习🌿</th>
@@ -103,6 +96,8 @@
       <td><a href="https://www.wmyskxz.com/2018/05/08/spring-boot-kuai-su-ru-men/">Spring Boot【快速入门】</a></td>
    </tr>
 </table>
+
+
 ## Part 3. 框架相关
 
 <table>
@@ -116,6 +111,8 @@
      <td><a href="https://www.wmyskxz.com/2020/03/02/reids-4-shen-qi-de-hyperloglog-jie-jue-tong-ji-wen-ti/">Reids(4)——神奇的HyperLoglog解决统计问题</a></td>
    </tr>
 </table>
+
+
 
 ## Part 4.面试宝典
 
@@ -143,6 +140,7 @@
   </tr>
 </table>
 
+
 <table>
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">数据结构与算法📒</th>
@@ -156,6 +154,7 @@
       <td></td>
    </tr>
 </table>
+
 
 <table>
    <tr align="center">
@@ -175,6 +174,7 @@
    </tr>
 </table>
 
+
 ### 认识面试以及面试的技巧
 
 <table>
@@ -184,6 +184,7 @@
    <tr>
       <td><a href="https://www.zhihu.com/question/306398832/answer/619633924">面试都有哪些面试技巧？ - 知乎 | @思宇爱读册</a></td>
 </table>
+
 
 ## Part 5.程序人生
 
@@ -203,6 +204,7 @@
 
 
 
+
 # 公众号
 
 内容公众号同步更新，有时候不适合发 Github 的东西我也会发在公众号里面，所以请各位大大也扫码关注，支持一波吧
@@ -212,6 +214,7 @@
       <img src="/images/README/image-20200221181715900.png" height="350" width="350">
   </a>
 </p>
+
 
 
 
@@ -230,3 +233,4 @@
       <img src="/images/README/image-20200221211142279.png" height="350" width="350">
   </a>
 </p>
+
