@@ -23,7 +23,7 @@
 
 # 目录
 
-- [Part 0.开始之前必读](#part0)
+- <a href="#part0"><img src="/images/README/part0.png" height="40"></a>
 - [Part 1.Java 基础](#part1)
 	- [🔥推荐 Java 基础学习教程☕️](#part1-recommend)
 	- [Java 高并发学习☕️](#part1-concurrency)
