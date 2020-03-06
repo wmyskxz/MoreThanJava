@@ -47,11 +47,6 @@
    </tr>
    <tr>
       <td><a href="https://www.cnblogs.com/ityouknow/p/6871580.html">思维的局限 | 我们为什么需要保持学习</a></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
    </tr>
 </table>
 
@@ -79,10 +74,6 @@
    <tr>
       <td><a href="https://www.wmyskxz.com/2019/11/26/gao-bing-fa-bian-cheng-xue-xi-1-bing-fa-ji-chu/">高并发编程学习(1)——并发基础</a></td>
       <td><a href="https://www.wmyskxz.com/2019/11/27/gao-bing-fa-bian-cheng-xue-xi-2-xian-cheng-tong-xin-xiang-jie/">高并发编程学习(2)——线程通信详解</a></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
    </tr>
 </table>
 
@@ -113,11 +104,6 @@
    </tr>
    <tr>
       <td><a href="https://www.wmyskxz.com/2018/05/08/spring-boot-kuai-su-ru-men/">🔥Spring Boot【快速入门】</a></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
    </tr>
 </table>
 
@@ -170,7 +156,6 @@
       <td><a href="https://www.wmyskxz.com/2018/07/06/shu-ju-jie-gou-yu-suan-fa-2-zhan-he-dui-lie/">数据结构与算法(2)——栈和队列</a></td>
       <td><a href="https://www.wmyskxz.com/2018/07/11/shu-ju-jie-gou-yu-suan-fa-3-shu-er-cha-er-cha-sou-suo-shu/">数据结构与算法(3)——树（二叉、二叉搜索树）</a></td>
       <td><a href="https://www.wmyskxz.com/2018/07/12/shu-ju-jie-gou-yu-suan-fa-4-you-xian-dui-lie-he-dui/">数据结构与算法(4)——优先队列和堆</a></td>
-      <td></td>
    </tr>
 </table>
 
