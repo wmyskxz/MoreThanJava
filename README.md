@@ -41,19 +41,24 @@
 
 <h2 id="part0">Part 0.开始之前必读</h2>
 
-<table>
+<table width="100%">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">开始之前👨‍💻‍</th>
    </tr>
    <tr>
       <td><a href="https://www.cnblogs.com/ityouknow/p/6871580.html">思维的局限 | 我们为什么需要保持学习</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
    </tr>
 </table>
 
 
 <h2 id="part1">Part 1.Java 基础</h2>
 
-<table id="part1-recommend">
+<table width="100%" id="part1-recommend">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">🔥推荐 Java 基础学习教程☕️</th>
    </tr>
@@ -67,7 +72,7 @@
    </tr>
 </table>
 
-<table id="part1-concurrency">
+<table width="100%" id="part1-concurrency">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">Java 高并发学习☕️</th>
    </tr>
@@ -84,7 +89,7 @@
 
 <h2 id="part2">Part 2.Java Web</h2>
 
-<table id="part2-spring">
+<table width="100%" id="part2-spring">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">Spring 框架基础🍃</th>
    </tr>
@@ -102,7 +107,7 @@
 </table>
 
 
-<table id="part2-springboot">
+<table width="100%" id="part2-springboot">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">SpringBoot 学习🌿</th>
    </tr>
@@ -118,7 +123,7 @@
 
 <h2 id="part3">Part 3. 框架相关</h2>
 
-<table id="part3-redis">
+<table width="100%" id="part3-redis">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">Redis 系列☑️</th>
    </tr>
@@ -132,7 +137,7 @@
 
 <h2 id="part4">Part 4.面试宝典</h2>
 
-<table id="part4-java">
+<table width="100%" id="part4-java">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">Java 面试知识点全解析📒</th>
    </tr>
@@ -155,7 +160,7 @@
 </table>
 
 
-<table id="part4-algorithm">
+<table width="100%" id="part4-algorithm">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">数据结构与算法📒</th>
    </tr>
@@ -170,7 +175,7 @@
 </table>
 
 
-<table id="part4-other">
+<table width="100%" id="part4-other">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">其他优秀面试宝典收集📒</th>
    </tr>
@@ -192,7 +197,7 @@
    </tr>
 </table>
 
-<table id="part4-about-interview">
+<table width="100%" id="part4-about-interview">
    <tr align="center">
       <th colspan="6" style="background-color: #96a6ae">正确认识面试👨‍💼</th>
    </tr>
