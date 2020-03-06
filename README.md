@@ -23,42 +23,7 @@
 
 # 目录
 
-<table border="0" frame="hsides" width="100%" rules="none">
-  <tbody valign="top" style="display: table">
-   <tr border="0">  
-      <td width="33%" border="0" height="100%">
-	      <p align="center"> <a href="#part0"><img src="https://upload-images.jianshu.io/upload_images/7896890-7441530e59df5fb7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" height="40">
-	      </a>
-	      </p>
-	      	      	      <ul>
-                	          <li><a href="#part1">测试一下</a></li>
-                            <li><a href="#part1">测试一下</a></li>
-                            <li><a href="#part1">测试一下</a></li>
-                	      </ul>
-      </td>
-      <td width="33%" border="0" height="100%">
-	      <p align="center"> <a href="#part0"><img src="https://upload-images.jianshu.io/upload_images/7896890-7441530e59df5fb7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" height="40">
-	      </a>
-	      </p>
-	      	      	      <ul>
-                	          <li><a href="#part1">测试一下</a></li>
-                            <li><a href="#part1">测试一下</a></li>
-                            <li><a href="#part1">测试一下</a></li>
-                	      </ul>
-      </td>
-      <td width="33%" border="0" height="100%">
-	      <p align="center"> <a href="#part0"><img src="https://upload-images.jianshu.io/upload_images/7896890-7441530e59df5fb7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" height="40">
-	      </a>
-	      </p>
-	      	      	      <ul>
-                	          <li><a href="#part1">测试一下</a></li>
-                	      </ul>
-      </td>
-   </tr>
-   </tbody>
-</table>
-
-- <a href="#part0"><img src="/images/README/part0.png" height="40"></a>
+- [Part 0.开始之前必读](#part0)
 - [Part 1.Java 基础](#part1)
 	- [🔥推荐 Java 基础学习教程☕️](#part1-recommend)
 	- [Java 高并发学习☕️](#part1-concurrency)
