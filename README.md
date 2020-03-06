@@ -211,7 +211,7 @@
 
 <p align="center">
   <a href="https://github.com/wmyskxz/MoreThanJava/">
-      <img src="/images/README/image-2020022118171590øø0.png" height="350" width="350">
+      <img src="/images/README/image-20200221181715900.png" height="350" width="350">
   </a>
 </p>
 
