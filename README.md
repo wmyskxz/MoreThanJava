@@ -118,8 +118,11 @@
      <td><a href="https://www.wmyskxz.com/2020/02/29/redis-2-tiao-yue-biao/">Redis(2)——跳跃表</a></td>
      <td><a href="https://www.wmyskxz.com/2020/03/01/redis-3/">Redis(3)——分布式锁深入探索</a></td>
      <td><a href="https://www.wmyskxz.com/2020/03/02/reids-4-shen-qi-de-hyperloglog-jie-jue-tong-ji-wen-ti/">Reids(4)——神奇的HyperLoglog解决统计问题</a></td>
+     <td><a href="https://www.wmyskxz.com/2020/03/11/redis-5-yi-ji-shu-ju-guo-lu-he-bu-long-guo-lu-qi/">Redis(5)——亿级数据过滤和布隆过滤器</a></td>
+     <td><a href="https://www.wmyskxz.com/2020/03/12/redis-6-geohash-cha-zhao-fu-jin-de-ren/">Redis(6)——GeoHash查找附近的人</a></td>
    </tr>
 </table>
+
 
 <h2 id="part4">Part 4.面试宝典</h2>
 
