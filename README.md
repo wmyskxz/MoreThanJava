@@ -121,6 +121,9 @@
      <td><a href="https://www.wmyskxz.com/2020/03/11/redis-5-yi-ji-shu-ju-guo-lu-he-bu-long-guo-lu-qi/">Redis(5)——亿级数据过滤和布隆过滤器</a></td>
      <td><a href="https://www.wmyskxz.com/2020/03/12/redis-6-geohash-cha-zhao-fu-jin-de-ren/">Redis(6)——GeoHash查找附近的人</a></td>
    </tr>
+     <tr>
+      <td><a href="https://www.wmyskxz.com/2020/03/13/redis-7-chi-jiu-hua-yi-wen-liao-jie/">Redis(7)——持久化【一文了解】</a></td>
+   </tr>
 </table>
 
 
