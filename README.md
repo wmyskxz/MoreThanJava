@@ -19,7 +19,7 @@
 
 当走出学校，跨入职场，你会发现写代码这件事除了 CODING，还有很多的【认知】需要提升，所以本项目致力于【MORE THAN JAVA】的学习，不仅仅是 CODING，还有很多不止于 CODING 的【知识】。
 
-[公众号](#公众号)和[本项目](https://github.com/wmyskxz/MoreThanJava)保持同步更新，喜欢的小伙伴可以点一波关注，有任何意见 or 建议请[联系我](#微信)，另外觉得卡的朋友也可以访问国内的 [Gitee](https://gitee.com/wmyskxz/MoreThanJava)，**您的[支持](#赞赏)是我前进最大的动力!**
+[ 公众号](#公众号)和[本项目](https://github.com/wmyskxz/MoreThanJava)保持同步更新，喜欢的小伙伴可以点一波关注，有任何意见 or 建议请[联系我](#微信)，另外觉得卡的朋友也可以访问国内的 [Gitee](https://gitee.com/wmyskxz/MoreThanJava)，**您的[支持](#赞赏)是我前进最大的动力!**
 
 # 目录
 
@@ -123,8 +123,13 @@
    </tr>
      <tr>
       <td><a href="https://www.wmyskxz.com/2020/03/13/redis-7-chi-jiu-hua-yi-wen-liao-jie/">Redis(7)——持久化【一文了解】</a></td>
+       <td><a href="https://www.wmyskxz.com/2020/03/15/redis-8-fa-bu-ding-yue-yu-stream/">Redis(8)——发布/订阅与Stream</a></td>
+       <td>Redis(9)——主从复制(待更新..)</td>
+       <td>Redis(10)——高性能原因分析(待更新..)</td>
+       <td>Redis面试指南(待更新..)</td>
    </tr>
 </table>
+
 
 
 <h2 id="part4">Part 4.面试宝典</h2>
