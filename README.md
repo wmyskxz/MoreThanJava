@@ -19,7 +19,7 @@
 
 当走出学校，跨入职场，你会发现写代码这件事除了 CODING，还有很多的【认知】需要提升，所以本项目致力于【MORE THAN JAVA】的学习，不仅仅是 CODING，还有很多不止于 CODING 的【知识】。
 
-[ 公众号](#公众号)和[本项目](https://github.com/wmyskxz/MoreThanJava)保持同步更新，喜欢的小伙伴可以点一波关注，有任何意见 or 建议请[联系我](#微信)，另外觉得卡的朋友也可以访问国内的 [Gitee](https://gitee.com/wmyskxz/MoreThanJava)，**您的[支持](#赞赏)是我前进最大的动力!**
+[公众号](#公众号)和[本项目](https://github.com/wmyskxz/MoreThanJava)保持同步更新，喜欢的小伙伴可以点一波关注，有任何意见 or 建议请[联系我](#微信)，另外觉得卡的朋友也可以访问国内的 [Gitee](https://gitee.com/wmyskxz/MoreThanJava)，**您的[支持](#赞赏)是我前进最大的动力!**
 
 # 目录
 
@@ -38,6 +38,8 @@
 	- [其他优秀面试宝典收集📒](#part4-other)
 	- [正确认识面试👨‍💼](#part4-about-interview)
 - [Part 5.程序人生](#part5)
+- [Part 6.懂一点前端](#part6)
+- [Part 6.懂一点Python](#part7)
 
 <h2 id="part0">Part 0.开始之前必读</h2>
 
@@ -115,7 +117,7 @@
    </tr>
    <tr>
       <td><a href="https://www.wmyskxz.com/2020/02/28/redis-1-5-chong-ji-ben-shu-ju-jie-gou/">Redis(1)——5种基本数据结构</a></td>
-     <td><a href="https://www.wmyskxz.com/2020/02/29/redis-2-tiao-yue-biao/">Redis(2)——跳跃表</a></td>
+     <td><a href="https://www.wmyskxz.com/2020/02/ 29/redis-2-tiao-yue-biao/">Redis(2)——跳跃表</a></td>
      <td><a href="https://www.wmyskxz.com/2020/03/01/redis-3/">Redis(3)——分布式锁深入探索</a></td>
      <td><a href="https://www.wmyskxz.com/2020/03/02/reids-4-shen-qi-de-hyperloglog-jie-jue-tong-ji-wen-ti/">Reids(4)——神奇的HyperLoglog解决统计问题</a></td>
      <td><a href="https://www.wmyskxz.com/2020/03/11/redis-5-yi-ji-shu-ju-guo-lu-he-bu-long-guo-lu-qi/">Redis(5)——亿级数据过滤和布隆过滤器</a></td>
@@ -202,7 +204,17 @@
 </table>
 
 
-<h2 id="part 5">Part 5.程序人生</h2>
+<h2 id="part5">Part 5.程序人生</h2>
+
+<h2 id="part6">Part 6.懂一点前端</h2>
+
+- [懂一点前端——Vue快速入门](https://www.wmyskxz.com/2020/03/30/dong-yi-dian-qian-duan-vue-kuai-su-ru-men/)
+ 
+<h2 id="part7">Part 7.懂一点Python</h2>
+
+- [懂一点Python系列——快速入门](https://www.wmyskxz.com/2020/03/23/dong-yi-dian-python-xi-lie-kuai-su-ru-men/)
+
+
 
 # 微信
 
