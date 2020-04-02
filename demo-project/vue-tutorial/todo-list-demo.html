@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>TodoList-Demo</title>
+    </head>
+    <body>
+        <style>
+            body{
+                font-size: 1.4em;
+            }        
+            
+            input {
+                font-size: 1em;
+            }
+            
+            button {
+                font-size: 1em;
+            }
+        </style>
+        <div id="app">
+<input type="text" v-model="newTodoText" />
+<button @click="addItem">添加</button>
+<ul>
+    <li v-for="item in todos">
+        <span>{{ item.text }}</span>
+        <span><button @click="removeItem(item.id)">del</button></span>
+    </li>
+</ul>
+        </div>
+
+        <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script>
+            let nextTodoId = 1;
+            // 创建一个 Vue 实例或者说是 VieModel 实例
+            var app = new Vue({
+                el: '#app',
+data: {
+    todos: [{
+            id: nextTodoId++,
+            text: '写代码'
+        },
+        {
+            id: nextTodoId++,
+            text: '还是写代码'
+        }
+    ],
+    newTodoText: ""
+},
+methods: {
+    addItem(key) {
+        this.todos.push({
+            id: nextTodoId,
+            text: this.newTodoText
+        })
+        this.newTodoText = ""
+    },
+    removeItem(idToRemove) {
+        this.todos = this.todos.filter(todo => {
+            return todo.id !== idToRemove
+        })
+    }
+}
+            })
+        </script>
+    </body>
+</html>

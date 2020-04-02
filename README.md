@@ -49,6 +49,7 @@
    </tr>
    <tr>
       <td><a href="https://www.cnblogs.com/ityouknow/p/6871580.html">思维的局限 | 我们为什么需要保持学习</a></td>
+      <td><a href="/java-base/「MoreThanJava」当大学选择了计算机之后应该知道的.md">「MoreThanJava」当大学选择了计算机之后应该知道的</a></td>
    </tr>
 </table>
 
@@ -212,7 +213,7 @@
  
 <h2 id="part7">Part 7.懂一点Python</h2>
 
-- [懂一点Python系列——快速入门](https://www.wmyskxz.com/2020/03/23/dong-yi-dian-python-xi-lie-kuai-su-ru-men/)
+- [懂一点Python系列——快速入门](https://www.wmyskxz.com/2020/03/23/dong-yi-dian-python-xi-lie-kuai-su-ru-men/ø)
 
 
 

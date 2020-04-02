@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Vue!</title>
+</head>
+<body>
+<div id="app">
+	<p v-if="seen">现在你看到我了！</p>
+	<p v-else>Oh no!</p>
+</div>
+
+<!-- 开发环境版本，包含了有帮助的命令行警告 -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+    // 创建一个 Vue 实例或者说是 VieModel 实例
+    var app = new Vue({
+        el: '#app',
+        data: {
+            seen: false
+        }
+    })
+</script>
+</body>
+</html>

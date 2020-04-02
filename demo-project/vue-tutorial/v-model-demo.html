@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hello Vue!</title>
+</head>
+<body>
+	<style>
+		/* 为了方便查看加了一些样式 */
+		body{
+			font-size: 2em;
+		}
+		
+		p {
+			height: 1em;
+			margin-bottom: 10px;
+		}
+		
+		.input-btn {
+			font-size: 1em;
+		}
+	</style>
+	<div id="app">
+		<p>{{ message }}</p>
+		<input type="text" v-model="message" class="input-btn" />
+	</div>
+
+	<!-- 开发环境版本，包含了有帮助的命令行警告 -->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script>
+		// 创建一个 Vue 实例或者说是 VieModel 实例
+		var app = new Vue({
+			el: '#app',
+			data: {
+				message: 'Hello Vue!'
+			}
+		})
+	</script>
+</body>
+</html>
