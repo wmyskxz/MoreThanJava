@@ -41,6 +41,7 @@
 - [Part 5.程序人生](#part5)
 - [Part 6.懂一点前端](#part6)
 - [Part 7.懂一点Python](#part7)
+- [Part 8.有趣集中营](#part8)
 
 <h2 id="part0">Part 0.开始之前必读</h2>
 
@@ -224,7 +225,10 @@
 
 - [懂一点Python系列——快速入门](https://www.wmyskxz.com/2020/03/23/dong-yi-dian-python-xi-lie-kuai-su-ru-men/ø)
 
+<h2 id="part8">Part 8.有趣集中营</h2>
 
+- [扫地僧回来了](https://mp.weixin.qq.com/s/dFnkLelQBuGaL_mlMUcpeA)
+- [面向对象圣经](https://mp.weixin.qq.com/s/TfcEzFN3HD3zV8PsjbM2KA)
 
 # 微信
 
