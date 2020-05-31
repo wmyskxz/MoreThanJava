@@ -53,6 +53,7 @@
       <td><a href="https://www.cnblogs.com/ityouknow/p/6871580.html">思维的局限 | 我们为什么需要保持学习</a></td>
       <td><a href="/java-base/「MoreThanJava」当大学选择了计算机之后应该知道的.md">「MoreThanJava」当大学选择了计算机之后应该知道的</a></td>
       <td><a href="/java-base/「MoreThanJava」计算机发展史—从织布机到电脑.md">「MoreThanJava」计算机发展史—从织布机到IBM</a></td>
+      <td><a href="/java-base/「MoreThanJava」计算机系统概述.md">「MoreThanJava」计算机系统概述</a></td>
    </tr>
 </table>
 
