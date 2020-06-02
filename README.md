@@ -54,6 +54,7 @@
       <td><a href="/java-base/「MoreThanJava」当大学选择了计算机之后应该知道的.md">「MoreThanJava」当大学选择了计算机之后应该知道的</a></td>
       <td><a href="/java-base/「MoreThanJava」计算机发展史—从织布机到电脑.md">「MoreThanJava」计算机发展史—从织布机到IBM</a></td>
       <td><a href="/java-base/「MoreThanJava」计算机系统概述.md">「MoreThanJava」计算机系统概述</a></td>
+      <td><a href="/java-base/「MoreThanJava」一文了解二进制和CPU工作原理.md">「MoreThanJava」一文了解二进制和CPU工作原理</a></td>
    </tr>
 </table>
 
