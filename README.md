@@ -59,6 +59,7 @@
    </tr>
    <tr>
       <td><a href="/java-base/「MoreThanJava」Java发展史及起航新世界.md">「MoreThanJava」Java发展史及起航新世界</a></td>
+      <td><a href="/java-base/day1.md">「MoreThanJava」Day 1：环境搭建和程序基本结构元素</a></td>
    </tr>
 </table>
 
