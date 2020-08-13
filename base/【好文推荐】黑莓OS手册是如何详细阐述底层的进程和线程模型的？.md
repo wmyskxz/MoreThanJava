@@ -1,4 +1,4 @@
-![](https://imgkr2.cn-bj.ufileos.com/db1944cc-0cc4-4ee0-befd-c3cd2059a58d.png?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=oo617Eq22IS84ftmiXEcXP2k4Bs%253D&Expires=1596272169)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/【好文推荐】黑莓OS手册是如何详细阐述底层的进程和线程模型的？/db1944cc-0cc4-4ee0-befd-c3cd2059a58d.png)
 
 - **「MoreThanJava」** 宣扬的是 **「学习，不止 CODE」**，本系列 Java 基础教程是自己在结合各方面的知识之后，对 Java 基础的一个总回顾，旨在 **「帮助新朋友快速高质量的学习」**。
 - 当然 **不论新老朋友** 我相信您都可以 **从中获益**。如果觉得 **「不错」** 的朋友，欢迎 **「关注 + 留言 + 分享」**，文末有完整的获取链接，您的支持是我前进的最大的动力！
@@ -11,7 +11,7 @@
 
 手册中详细描述了许多关于 Linux 函数调用涉及底层方面的细节，在本文中我大都没有贴出来，**感兴趣的朋友强烈建议去拜读一下原文！**
 
-![](https://imgkr2.cn-bj.ufileos.com/336441d3-e4fc-450e-9271-1b4ef3a4f6ed.png?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=9VR8cSORG5jWR8cqJTrBoc4TXIo%253D&Expires=1596271687)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/【好文推荐】黑莓OS手册是如何详细阐述底层的进程和线程模型的？/336441d3-e4fc-450e-9271-1b4ef3a4f6ed.png)
 
 > - 原文地址：https://developer.blackberry.com/native/documentation/dev/rtos/arch/about_system_architecture.html
 
@@ -23,7 +23,7 @@
 
 ## 进程就像一栋房子
 
-![](https://imgkr2.cn-bj.ufileos.com/e283ed13-3541-4a3d-8ec9-6b845d6434f4.png?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=kecaKX3GOyWpSaR9vTCJZBokCR4%253D&Expires=1596244026)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/【好文推荐】黑莓OS手册是如何详细阐述底层的进程和线程模型的？/e283ed13-3541-4a3d-8ec9-6b845d6434f4.png)
 
 房子实际上是 **具有某些属性的容器** *(例如卧室数量、占地面积、区域划分等)*。
 
@@ -31,7 +31,7 @@
 
 ## 线程就像是居住者
 
-![](https://imgkr2.cn-bj.ufileos.com/3d262b67-f931-41fa-8328-bcce20034a5b.png?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=F7QcbvtpKj0DWD1dvrh8Jx7sqhw%253D&Expires=1596244392)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/【好文推荐】黑莓OS手册是如何详细阐述底层的进程和线程模型的？/3d262b67-f931-41fa-8328-bcce20034a5b.png)
 
 居住在房子里面的人是 **活动的对象**，他们可以使用各种房间，看电视、做饭、洗澡等等等...
 
@@ -71,7 +71,7 @@
 
 下图显示了我们表示线程和进程的方式。进程是一个圆圈，代表“容器”概念（地址空间），三个长方形是线程。在本文中，您将看到类似这样的图。
 
-![](https://imgkr2.cn-bj.ufileos.com/2c253102-4bd3-4164-892f-315c5fba4467.png?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=WnCM4PjMf048bO3dnw%252FgnGCI8jo%253D&Expires=1596244922)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/【好文推荐】黑莓OS手册是如何详细阐述底层的进程和线程模型的？/2c253102-4bd3-4164-892f-315c5fba4467.png)
 
 ## 互斥
 
@@ -217,11 +217,11 @@ CPU 有许多寄存器 *(确切的数目取决于处理器家族，例如，`x86
 
 在下面的图中，我们看到三个线程在两个不同的进程中运行:
 
-![](https://imgkr2.cn-bj.ufileos.com/d1dcc7d2-65c5-411d-b392-e9e5f68b901f.png?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=9IsHiil41mGZXGCu0BiXBOkCURM%3D&Expires=1596260602)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/【好文推荐】黑莓OS手册是如何详细阐述底层的进程和线程模型的？/d1dcc7d2-65c5-411d-b392-e9e5f68b901f.png)
 
 如果我们假设线程“A”和“B”已经准备好了，线程“C”被阻塞了(可能在等待互斥)，线程“D”(没有显示)正在执行，那么内核维护的就绪队列的一部分看起来是这样的：
 
-![](https://imgkr2.cn-bj.ufileos.com/990839a3-c5e9-44c1-a4a8-5c57d885b15a.png?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=2E%2F2JZeM6FlDNeZBFH0wcsuvv4k%3D&Expires=1596261100)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/【好文推荐】黑莓OS手册是如何详细阐述底层的进程和线程模型的？/990839a3-c5e9-44c1-a4a8-5c57d885b15a.png)
 
 这显示了内核的 **内部就绪队列**，内核使用它来决定下一步调度谁。注意，线程“C”没有在就绪队列中，因为它被阻塞了；线程“D”也没有在就绪队列中，因为它正在运行。
 
@@ -240,7 +240,7 @@ CPU 有许多寄存器 *(确切的数目取决于处理器家族，例如，`x86
 
 下面的流程图显示了内核做出的决策：
 
-![](https://imgkr2.cn-bj.ufileos.com/b0053516-c0fb-4655-91d1-a725cba0681d.png?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=p6DZfBCt5m%2B4iBy491D3YTrm2%2Fc%3D&Expires=1596263209)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/【好文推荐】黑莓OS手册是如何详细阐述底层的进程和线程模型的？/b0053516-c0fb-4655-91d1-a725cba0681d.png)
 
 
 对于多 CPU 系统，规则是相同的，除了多个 CPU 可以并发地运行多个线程。线程运行的顺序 *(在多个 CPU 上运行哪些线程)* 的确定方法与在单个 CPU 上完全相同 —— 最高优先级的就绪线程将在一个 CPU 上运行。对于优先级较低或等待时间较长的线程，内核在安排它们以避免缓存使用效率低下方面具有一定的灵活性。
@@ -328,7 +328,7 @@ CPU 有许多寄存器 *(确切的数目取决于处理器家族，例如，`x86
 
 **然而，可靠性可能是最重要的一点**。进程就像房子一样，有一些定义明确的 “边界”。住在房子里的人很清楚自己什么时候在房子里，什么时候不在房子里。一个线程有一个很好的想法 —— 如果它在进程中访问内存，它可以存活。如果它超出了进程地址空间的范围，它就会被杀死。这意味着运行在不同进程中的两个线程可以有效地相互隔离。
 
-![](https://imgkr2.cn-bj.ufileos.com/bbe2b7f2-7b04-44a7-a5fe-712433286783.png?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=LeNN0yU22H6okm89xqzgNB5Afog%3D&Expires=1596263701)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/【好文推荐】黑莓OS手册是如何详细阐述底层的进程和线程模型的？/bbe2b7f2-7b04-44a7-a5fe-712433286783.png)
 
 
 进程地址空间由系统的进程管理器模块维护和执行。当一个进程启动时，进程管理器会分配一些内存给它，并启动一个正在运行的线程。内存被标记为该进程所拥有。
@@ -379,13 +379,13 @@ pthread_create (pthread_t *thread,
 
 假设我们有一个程序，需要先计算图形的部分 *(假设使用 "C" 表示)*，然后需要传输到远端 *(假设使用 "X" 表示)*，并最终等待远端回应做下一步操作 *(假设使用 "W" 表示)*，以下就是该程序在单核 CPU 下的使用情况：
 
-![序列化的单核 CPU](https://imgkr2.cn-bj.ufileos.com/fee14383-a2e8-484c-bcfa-f7ccf0845420.png?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=96sX3T0LAO51JoyM8McWrDSwAfA%253D&Expires=1596268074)
+![序列化的单核 CPU](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/【好文推荐】黑莓OS手册是如何详细阐述底层的进程和线程模型的？/fee14383-a2e8-484c-bcfa-f7ccf0845420.png)
 
 等一下！这浪费了我们许多宝贵的可用于计算的时间！因为等待远端回复的过程，CPU 做的仅仅是 "等待" 而已..
 
 如果我们使用多线程，应该可以更好地利用我们的 CPU，对吗？
 
-![多线程单 CPU](https://imgkr2.cn-bj.ufileos.com/99911d6b-3116-47ea-9f3d-8bca77e5abea.png?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=LfyDJ0c6Hs0I9C5jrhYp4C3nETg%253D&Expires=1596268344)
+![多线程单 CPU](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/【好文推荐】黑莓OS手册是如何详细阐述底层的进程和线程模型的？/99911d6b-3116-47ea-9f3d-8bca77e5abea.png)
 
 这样好得多，因为现在，即使第二个线程花了一些时间等待，我们也减少了计算所需的总时间。
 
@@ -409,7 +409,7 @@ pthread_create (pthread_t *thread,
 
 现在，我们创建一个四线程的版本，并且在 `4` 核的系统上运行它，那么我们最终将得到如下图示的结果：
 
-![4 核 4 CPU 图示](https://imgkr2.cn-bj.ufileos.com/b669fc01-c058-4df2-9853-73f0b5705c41.png?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=QCugWjxGwC63F%252FZ11dL%252BlLs6zyQ%253D&Expires=1596269380)
+![4 核 4 CPU 图示](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/【好文推荐】黑莓OS手册是如何详细阐述底层的进程和线程模型的？/b669fc01-c058-4df2-9853-73f0b5705c41.png)
 
 **请注意，四个 CPU 的每个利用率均未得到充分利用** *(如图示  "利用率" 中的灰色矩形所示)*。上图中有两个有趣的区域。当四个线程启动时，它们各自进行计算。不过，当线程在每次计算完成时，它们都在争夺传输硬件 *(图中的 "X" 部分 —— 一次只能进行一次传输)*。这算是在启动部分给了我们一个小异常。一旦线程经过此阶段，由于传输时间比计算周期的 `1/4` 小得多，因此它们自然会与传输硬件同步。首先，忽略小异常，该系统的特征在于以下公式：
 
@@ -436,7 +436,7 @@ pthread_create (pthread_t *thread,
 > - 本文已收录至我的 Github 程序员成长系列 **【More Than Java】，学习，不止 Code，欢迎 star：[https://github.com/wmyskxz/MoreThanJava](https://github.com/wmyskxz/MoreThanJava)**
 > - **个人公众号** ：wmyskxz，**个人独立域名博客**：wmyskxz.com，坚持原创输出，下方扫码关注，2020，与您共同成长！
 
-![](https://imgkr.cn-bj.ufileos.com/ace97ed9-3cfd-425f-85e5-c1a1e5ca7d3f.png)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/【好文推荐】黑莓OS手册是如何详细阐述底层的进程和线程模型的？/ace97ed9-3cfd-425f-85e5-c1a1e5ca7d3f.png)
 
 非常感谢各位人才能 **看到这里**，如果觉得本篇文章写得不错，觉得 **「我没有三颗心脏」有点东西** 的话，**求点赞，求关注，求分享，求留言！**
 

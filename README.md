@@ -67,6 +67,8 @@
       <td><a href="/java-base/day5.md">「MoreThanJava」Day 5：面向对象进阶——继承详解</a></td>
    </tr>
    <tr>
+      <td><a href="/java-base/day6.md">「MoreThanJava」Day 6：面向对象进阶——多态</a></td>
+      <td><a href="/java-base/day7.md">「MoreThanJava」Day 7：接口详解</a></td>
       <td><a href="/java-base/【知乎问答】如何让不懂编程的人感受到编程的魅力.md">【知乎问答】如何让不懂编程的人感受到编程的魅力</a></td>
       <td><a href="/life/记这大半年来的挣扎与迷茫.md">96年/离职8个月/拒绝华为offer/目前自由职业-记这大半年来的挣扎与迷茫</a></td>
       <td><a href="/base/【好文推荐】黑莓OS手册是如何详细阐述底层的进程和线程模型的？.md">【好文推荐】黑莓OS手册是如何详细阐述底层的进程和线程模型的？</a></td>

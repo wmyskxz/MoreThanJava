@@ -1,5 +1,5 @@
 
-![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承/e973d387-618a-46bd-abe5-bce322f54a72.png)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承详解/e973d387-618a-46bd-abe5-bce322f54a72.png)
 
 - **「MoreThanJava」** 宣扬的是 **「学习，不止 CODE」**，本系列 Java 基础教程是自己在结合各方面的知识之后，对 Java 基础的一个总回顾，旨在 **「帮助新朋友快速高质量的学习」**。
 - 当然 **不论新老朋友** 我相信您都可以 **从中获益**。如果觉得 **「不错」** 的朋友，欢迎 **「关注 + 留言 + 分享」**，文末有完整的获取链接，您的支持是我前进的最大的动力！
@@ -8,7 +8,7 @@
 
 [上一篇文章](https://www.wmyskxz.com/2020/08/04/morethanjava-day-4-mian-xiang-dui-xiang-ji-chu/) 中我们简单介绍了继承的作用，它允许创建 **具有逻辑等级结构的类体系**，形成一个继承树。
 
-![Animal 继承树](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承/35b85013-1566-4442-a093-67dc71ec7774.png)
+![Animal 继承树](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承详解/35b85013-1566-4442-a093-67dc71ec7774.png)
 
 继承使您可以基于现有类定义新类。 新类与现有类相似，但是可能具有其他实例变量和方法。这使编程更加容易，因为您可以 **在现有的类上构建**，而不必从头开始。
 
@@ -22,7 +22,7 @@
 
 假设您已经有了几十个需要的类，并且需要基于原始类创造新的一些类，再基于新的类创造出更新的类，最终您将获得数十个源文件，这些源文件都是通过其他已更改的源文件的另外版本。
 
-![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承/a7feeb86-9d37-406f-8aba-b9f395b437f7.png)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承详解/a7feeb86-9d37-406f-8aba-b9f395b437f7.png)
 
 假设现在在一个源文件中发现了错误，一些基于它的源文件需要进行修复，但是对于其他源文件来说，并不需要！没有细致的写代码的计划，您最终会陷入混乱....
 
@@ -36,7 +36,7 @@
 
 用于作为新类模板的类称为 **父类** *(或超类或基类)*，基于父类创建的类称为 **子类** *(或派生类)*。
 
-![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承/1744fdbf-cae1-4460-b4d9-0e48f00034eb.png)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承详解/1744fdbf-cae1-4460-b4d9-0e48f00034eb.png)
 
 就像上图中演示的那样，箭头从子类指向父类。*(在上图中，云表示类，而矩形表示对象，这样的表示的方法来自于 Grady Booch 写的《面向对象的分析和设计》一书。而在官方的 UML-统一建模语言 中，类和对象都用矩形表示，请注意这一点)*
 
@@ -48,7 +48,7 @@ Java 通过使用单继承避免了这些问题。*(意思 Java 只允许单继�
 
 ## is-a 关系
 
-![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承/2fed3fa5-88ee-460c-b839-e6bc9be6c551.png)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承详解/2fed3fa5-88ee-460c-b839-e6bc9be6c551.png)
 
 上图显示了一个父类 *(Video 视频类)*，一个子类 *(Movie 电影类)*。它们之间的实线表示 **"is-a"** 的关系：电影是视频。 
 
@@ -68,7 +68,7 @@ Java 通过使用单继承避免了这些问题。*(意思 Java 只允许单继�
 
 ## 层级结构
 
-![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承/5f02652b-1840-4faf-a18b-ba3b5455663d.png)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承详解/5f02652b-1840-4faf-a18b-ba3b5455663d.png)
 
 上图显示了一个父类和一个子类的 **层次结构**，以及从每个类构造的一些对象。这些对象用矩形表示，以表达它们比设计的类更真实。
 
@@ -153,7 +153,7 @@ Movie 类具有在 Video 中定义的成员变量和公共方法。
 
 **重要说明：`super()` 必须是子类构造函数中的第一条语句。** *(这意味子类构造器总是会先调用父类的构造器)* 这件事经常被忽略，导致的结果就是一些神秘的编译器错误消息。
 
-![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承/f19c167d-a96e-43b4-abc1-15106fe6cdf2.png)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承详解/f19c167d-a96e-43b4-abc1-15106fe6cdf2.png)
 
 如果子类的构造器没有显式地调用父类的构造器，将自动地调用父类的无参构造器。如果父类没有无参数的构造器，并且在子类的构造器中又没有显式地调用父类的其他构造器，Java 编译器就会报告一个错误。*(在我们的例子中 Video 缺少无参数的构造函数，故👆上面图片代码会报错)*
 
@@ -311,7 +311,7 @@ public class Tester {
 
 这意味着 Java 中的所有类都具有一些共同的特征。这些特征在被定义在 `Object` 中：
 
-![Object 类拥有的方法](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承/925a4b38-d2b2-4508-9011-988e2f5cfb49.png)
+![Object 类拥有的方法](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承详解/925a4b38-d2b2-4508-9011-988e2f5cfb49.png)
 
 *(其中 `finalize()` 方法在 Java 9 之后弃用了，原因是因为它本身存在一些问题，可能导致性能问题：死锁、挂起和其他问题...)*
 
@@ -332,7 +332,7 @@ Java 之父 Gosling 设计的 Object 类，是对万事万物的抽象，是在�
 
 准确地理解如何在对象上应用方法调用非常重要。下面假设我们要调用 `x.f(args)`，`x` 是声明为 `C` 的一个对象。下面是调用过程的详细描述：
 
-![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承/59297eb2-70b4-455b-adff-bb104e2bac70.png)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承详解/59297eb2-70b4-455b-adff-bb104e2bac70.png)
 
 1. 编译器查看对象的声明类型和方法名。需要注意的是：有可能存在多个名字为 `f` 但参数类型不一样的方法。例如，可能存在 `f(int)` 和 `f(String)`。编译器将会一一列举 `C` 类中所有名为 `f` 的方法和其父类中所有名为 `f` 而且可以访问的方法 *(父类中的私有方法不可访问)*。**至此，编译器一直到所有可能被调用的候选方法。**
 2. 接下来，编译器要确定方法调用中提供的参数类型。如果在所有名为 `f` 的方法中存在一个与所提供参数类型完全匹配的方法，就选择这个方法。这个过程称为 **重载解析** *(overloading resolution)*。例如，对于调用 `x.f("Hello")`，编译期将会挑选 `f(String)`，而不是 `f(int)`。由于允许类型转换 *(例如，`int` 可以转换成 `double`)*，所以情况可能会变得很复杂。如果编译器没有找到与参数类型匹配的方法，或者发现经过类型转换后有多个方法与之匹配，编译器就会报错。**至此，编译器已经知道需要调用的方法的名字和参数类型。**
@@ -341,7 +341,7 @@ Java 之父 Gosling 设计的 Object 类，是对万事万物的抽象，是在�
 
 **每次调用方法都要完成这样的搜索，时间开销相当大**。因此，虚拟机预先为每个类计算了一个 **方法表** *(method table)*， 其中列出了所有方法的签名和要调用的实际方法 *(存着各个方法的实际入口地址)*。这样一来，在真正调用方法的时候，虚拟机仅查找这个表就行了。*(以下是 Video-父类 和 Movie-子类 的方法表结构演示图)*
 
-![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承/b969be72-d055-4cb6-b680-12e8f57c4254.png)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承详解/b969be72-d055-4cb6-b680-12e8f57c4254.png)
 
 例如我们调用上述例子 Movie 类的 `play()` 方法。
 
@@ -408,7 +408,7 @@ public class Video {
 
 考虑一个 Person 类的继承结构：
 
-![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承/00ddd596-2c2c-4f94-a08b-37765be0ddfe.png)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承详解/00ddd596-2c2c-4f94-a08b-37765be0ddfe.png)
 
 每个人都有一些属性，如名字。学生与员工都有名字。
 
@@ -444,7 +444,7 @@ public abstract class Person {
 
 先别急着奇怪和愤懑，刚学习完继承之后，就告诉说不推荐使用，这是 **有原因的！**
 
-![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承/e29e8ed5-7853-4e7b-a89f-7ce7ab7b3fa2.png)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承详解/e29e8ed5-7853-4e7b-a89f-7ce7ab7b3fa2.png)
 
 在面向对象编程中，有一条非常经典的设计原则：**组合优于继承**。使用继承有什么问题？组合相比继承有哪些优势？如何判断该用组合还是继承？下面我们就围绕这三个问题，来详细讲解一下。
 
@@ -456,7 +456,7 @@ public abstract class Person {
 
 假设我们要设计一个关于鸟的类，我们将 “鸟类” 这样一个抽象的事物概念，定义为一个抽象类 `AbstractBird`。所有更细分的鸟，比如麻雀、鸽子、乌鸦等，都继承这个抽象类。
 
-![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承/8afe27e4-35d6-4fa8-b90b-be2e05644eeb.png)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承详解/8afe27e4-35d6-4fa8-b90b-be2e05644eeb.png)
 
 我们知道，大部分鸟都会飞，那我们可不可以在 `AbstractBird` 抽象类中，定义一个 `fly()` 方法呢？答案是否定的。尽管大部分鸟都会飞，但也有特例，比如鸵鸟就不会飞。鸵鸟继承具有 `fly()` 方法的父类，那鸵鸟就具有“飞”这样的行为，这显然不符合我们对现实世界中事物的认识。当然，你可能会说，我在鸵鸟这个子类中重写 *(override)* `fly()` 方法，让它抛出 `UnSupportedMethodException` 异常不就可以了吗？具体的代码实现如下所示：
 
@@ -480,7 +480,7 @@ public class Ostrich extends AbstractBird { //鸵鸟
 
 你可能又会说，那我们再通过 `AbstractBird` 类派生出两个更加细分的抽象类：会飞的鸟类 `AbstractFlyableBird` 和不会飞的鸟类 `AbstractUnFlyableBird`，让麻雀、乌鸦这些会飞的鸟都继承 `AbstractFlyableBird`，让鸵鸟、企鹅这些不会飞的鸟，都继承 `AbstractUnFlyableBird` 类，不就可以了吗？具体的继承关系如下图所示：
 
-![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承/f77b3726-9183-42a2-bf29-6cc701d228f8.png)
+![](https://cdn.jsdelivr.net/gh/wmyskxz/img/img/「MoreThanJava」Day5：面向对象进阶-继承详解/f77b3726-9183-42a2-bf29-6cc701d228f8.png)
 
 从图中我们可以看出，继承关系变成了三层。不过，整体上来讲，目前的继承关系还比较简单，层次比较浅，也算是一种可以接受的设计思路。我们再继续加点难度。在刚刚这个场景中，我们只关注“鸟会不会飞”，但如果我们关注更多的问题，例如 “鸟会不会叫”、”鸟会不会下单“ 等... 那这个时候，我们又该如何设计类之间的继承关系呢？
 
