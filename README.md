@@ -28,6 +28,7 @@
 
 - [Java基础](#Java基础)
   - [快速入门](#快速入门)
+  - [版本特性](#版本特性)
   - [优秀入门资料推荐](#Java基础优秀入门资料推荐)
 - [JavaWeb基础](#JavaWeb基础)
   - [初学JavaWeb -Servlet/ JSP](#初学JavaWeb-Servlet/JSP)
@@ -122,6 +123,27 @@
         </td>
         <td>
             <h3>持续整理输出中...</h3>
+        </td>
+    </tr>
+</table>
+
+<a href="#目录">返回目录</a>
+
+## 版本特性
+
+<table width="100%">
+    <tr align="center">
+        <th colspan="3" style="background-color: #96a6ae">版本特性</th>
+    </tr>
+    <tr>
+        <td>
+            <h3><a href="/java-base/java7.md">Java 7 版本特性</a></h3>
+            <ul>
+                <li>Java 7 版本特性一览</li>
+            </ul>
+        </td>
+        <td>
+            <h3>写作中....</a></h3>
         </td>
     </tr>
 </table>
