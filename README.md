@@ -133,7 +133,7 @@
 
 <table width="100%">
     <tr align="center">
-        <th colspan="3" style="background-color: #96a6ae">版本特性</th>
+        <th colspan="4" style="background-color: #96a6ae">版本特性</th>
     </tr>
     <tr>
         <td>
@@ -154,14 +154,14 @@
                 <li>Java 9 版本特性一览</li>
             </ul>
         </td>
-    </tr>
-    <tr>
         <td>
             <h3><a href="/java-base/java10.md">Java 10 版本特性</a></h3>
             <ul>
                 <li>Java 10 版本特性一览</li>
             </ul>
         </td>
+    </tr>
+    <tr>
         <td>
             <h3><a href="/java-base/java11.md">Java 11 版本特性</a></h3>
             <ul>
@@ -169,7 +169,22 @@
             </ul>
         </td>
         <td>
-            <h3>更新整理中...</h3>
+            <h3><a href="/java-base/java12.md">Java 12 版本特性</a></h3>
+            <ul>
+                <li>Java 12 版本特性一览</li>
+            </ul>
+        </td>
+        <td>
+            <h3><a href="/java-base/java13.md">Java 13 版本特性</a></h3>
+            <ul>
+                <li>Java 13 版本特性一览</li>
+            </ul>
+        </td>
+        <td>
+            <h3><a href="/java-base/java14.md">Java 14 版本特性</a></h3>
+            <ul>
+                <li>Java 14 版本特性一览</li>
+            </ul>
         </td>
     </tr>
 </table>

@@ -503,7 +503,7 @@ socket.setEnabledCipherSuites(new String[]{"TLS_AES_128_GCM_SHA256"});
 
 # 参考资料
 
-1. OpenJDK 官方说明 - http://openjdk.java.net/projects/jdk/10/
+1. OpenJDK 官方说明 - http://openjdk.java.net/projects/jdk/11/
 2. Java 11 Features - https://www.journaldev.com/24601/java-11-features
 3. What is new in Java 11 - https://mkyong.com/java/what-is-new-in-java-11/
 4. Java 11 Nest Based Access Control | Baeldung - https://www.baeldung.com/java-nest-based-access-control
