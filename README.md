@@ -30,6 +30,7 @@
   - [快速入门](#快速入门)
   - [版本特性](#版本特性)
   - [优秀入门资料推荐](#Java基础优秀入门资料推荐)
+  - [Java基础进阶](#Java基础进阶)
 - [JavaWeb基础](#JavaWeb基础)
   - [初学JavaWeb -Servlet/ JSP](#初学JavaWeb-Servlet/JSP)
   - [Spring 框架](#Spring框架)
@@ -218,6 +219,29 @@
                 <li>经典免费基础系列教材</li>
                 <li>基于最新 Java 14 编写</li>
             </ul>
+        </td>
+    </tr>
+</table>
+
+<a href="#目录">返回目录</a>
+
+## Java基础进阶
+
+<table width="100%">
+    <tr align="center">
+        <th colspan="3" style="background-color: #96a6ae">Java基础进阶</th>
+    </tr>
+    <tr>
+        <td>
+            <h3><a href="/java-base/一文带你深扒ClassLoader内核.md">一文带你深扒ClassLoader内核</a></h3>
+            <ul>
+                <li>作用 / 类结构分析 / 加载类流程详解 / 深入理解双亲委派模型</li>
+                <li>多个例子代码实际演示了 ClassLoader 工作原理</li>
+                <li>列举了更多扩展可阅读的文章</li>
+            </ul>
+        </td>
+        <td>
+            <h3>整理更新中....</h3>
         </td>
     </tr>
 </table>
