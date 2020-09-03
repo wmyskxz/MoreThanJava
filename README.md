@@ -37,6 +37,8 @@
   - [Spring MVC 框架](#SpringMVC框架)
   - [Spring Boot 框架](#SpringBoot框架)
   - [优秀入门资料推荐](#JavaWeb基础优秀资料推荐)
+- [中间件](#中间件)
+  - [Redis入门系列](#Redis入门系列)
 - [面试相关](#面试相关)
   - [Java 面试知识点解析系列](#Java面试知识点解析系列)
   - [面试题目优秀解答库](#面试题目优秀解答库)
@@ -424,7 +426,7 @@
 
 # 中间件
 
-## Redis 入门系列
+## Redis入门系列
 
 <table width="100%">
     <tr align="center">
