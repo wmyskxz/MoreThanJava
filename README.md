@@ -519,7 +519,9 @@
         <td>
             <h3><a href="/interview/《Offer一箩筐》求职之前你必须知道的4件事.md">《Offer一箩筐》求职之前你必须知道的4件事</a></h3>
         </td>
-        <td><h3>持续整理中..</h3></td>
+        <td>
+            <h3><a href="/interview/《Offer一箩筐》一份高质量「简历」撰写指南，望打扰！！.md">《Offer一箩筐》一份高质量「简历」撰写指南，望打扰！！</a></h3>
+        </td>
         <td><h3>持续整理中..</h3></td>
     </tr>
 </table>
